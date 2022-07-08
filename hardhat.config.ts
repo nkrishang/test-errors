@@ -74,6 +74,7 @@ if (testPrivateKey) {
   config.networks = {
     mainnet: createTestnetConfig("mainnet"),
     rinkeby: createTestnetConfig("rinkeby"),
+    goerli: createTestnetConfig("goerli")
   };
 }
 
